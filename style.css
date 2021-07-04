@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #54c3ef;
+}
+section {
+  display: flex;
+}
+h1 {
+  font-family: "Caveat Brush", cursive;
+  color: #fad744;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  text-shadow: 3px 3px 2px #2b3252;
+}
+#quiz-wrapper {
+  background-color: #2b3252;
+  width: 50%;
+  min-width: 30%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1%;
+  margin-bottom: 3rem;
+  margin-left: 20rem;
+}
+p {
+  color: #fad744;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.option-wrapper {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.option-wrapper span {
+  margin-left: 0.4rem;
+  color: #fad744;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fad744;
+  margin-top: 2rem;
+}
+#btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  height: 2rem;
+}
+#submit {
+  background-color: #fad744;
+  color: #2b3252;
+  border: none;
+  min-width: 13%;
+  height: 100%;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+#score {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  align-self: flex-start;
+  background-color: white;
+  width: 10%;
+  height: 11rem;
+  margin-top: 1.5rem;
+  margin-right: 11rem;
+  padding-left: 1.3rem;
+  padding-top: 2rem;
+  border-radius: 0.3rem;
+}
+#score h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#score span {
+  font-size: 1.7rem;
+}
+#tick,
+#cross {
+  margin-left: 1rem;
+  color: lime;
+}
+#cross {
+  color: red;
+}
